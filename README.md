@@ -6,25 +6,25 @@
 
 **NEURA** is a local-first, privacy-focused cognitive operating system that augments human intelligence through ethical AI. Built on principles of sovereignty, transparency, and user control.
 
-## 🌟 Philosophy
+## Philosophy
 
-- **🔒 Local-First**: All data and processing stay on your machine
-- **🛡️ Privacy by Design**: Zero telemetry, zero cloud dependencies
-- **⚖️ Ethical AI**: Transparent decision-making with audit trails
-- **🎯 Sovereign**: You own your data, you control your AI
+- **Local-First**: All data and processing stay on your machine
+- **Privacy by Design**: Zero telemetry, zero cloud dependencies
+- **Ethical AI**: Transparent decision-making with audit trails
+- **Sovereign**: You own your data, you control your AI
 
-## ✨ Features
+## Features
 
 ### Core Capabilities
 
-- **🧠 Cortex**: Local LLM engine powered by Ollama
-- **💾 Memory**: Hybrid storage (SQLite FTS5 + Qdrant embeddings)
-- **🔐 Vault**: Military-grade encryption (SQLCipher + Argon2)
-- **⚖️ Policy**: OPA-based governance engine
-- **🤖 Motor**: Safe system automation with AppleScript
-- **💬 Flow**: Conversational CLI/TUI interface
-- **🎤 Voice**: Local STT/TTS (Whisper + pyttsx3)
-- **📝 WHY Journal**: Complete audit trail of all decisions
+- **Cortex**: Local LLM engine powered by Ollama
+- **Memory**: Hybrid storage (SQLite FTS5 + Qdrant embeddings)
+- **Vault**: Military-grade encryption (SQLCipher + Argon2)
+- **Policy**: OPA-based governance engine
+- **Motor**: Safe system automation with AppleScript
+- **Flow**: Conversational CLI/TUI interface
+- **Voice**: Local STT/TTS (Whisper + pyttsx3)
+- **WHY Journal**: Complete audit trail of all decisions
 
 ### Advanced Features
 
@@ -33,7 +33,7 @@
 - **Multi-Modal**: Text, voice, and system integration
 - **Extensible**: Plugin architecture for custom capabilities
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -85,7 +85,7 @@ poetry run neura
 poetry run python -m neura.cli_simple
 ```
 
-## 📚 Architecture
+## Architecture
 
 ```
 neura/
@@ -100,7 +100,7 @@ neura/
 └── daemon/        # Background services
 ```
 
-## 🔧 Development
+## Development
 
 ### Running Tests
 
@@ -128,7 +128,7 @@ poetry run mypy neura/
 poetry run ruff check neura/
 ```
 
-## 🛣️ Roadmap
+## Roadmap
 
 ### Phase Alpha (Current)
 - [x] Core architecture
@@ -153,7 +153,7 @@ poetry run ruff check neura/
 - [ ] Community ecosystem
 - [ ] Enterprise features
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -192,7 +192,7 @@ NEURA takes security seriously:
 
 Found a security issue? Please email: security@neura.dev
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -204,13 +204,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Open Policy Agent** - Policy engine
 - **Whisper** - Speech recognition
 
-## 💬 Community
+## Community
 
 - **GitHub Discussions**: [Join the conversation](https://github.com/abrini92/NeuraOS/discussions)
 - **Discord**: Coming soon
-- **Twitter**: [@NeuraOS](https://twitter.com/NeuraOS)
 
-## 🌟 Star History
+## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=abrini92/NeuraOS&type=Date)](https://star-history.com/#abrini92/NeuraOS&Date)
 
